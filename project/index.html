@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Courses Catalog</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-<div class="page">
-</div>
-<script src="js/script.js"></script>
-</body>
-</html>
+<header class="header">
+    <p class="header__subtitle">ENJOY YOUR STUDYING!</p>
+    <h1 class="header__title">Our online courses</h1>
+</header>
+
+<section class="catalog">
+    <div class="catalog__controls">
+        <div class="filters" id="filters"></div>
+        <input type="text" class="search" id="search" placeholder="Search courses..." />
+    </div>
+
+    <div class="cards" id="cards"></div>
+
+    <button class="load-more" id="loadMore">Load more</button>
+</section>
