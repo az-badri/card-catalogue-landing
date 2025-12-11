@@ -4,7 +4,8 @@
 Полностью адаптивно, по макету из Figma.
 
 ![Preview](./public/assets/screens/figma_result.png)
-(скриншот тз из фигмы)
+скриншот тз из фигмы:
+https://www.figma.com/design/iuXLXifXgv4ZCzad0KeYKr/Test-Task?node-id=2249-2298&t=Z6ZQBzWkisXIDidw-0
 
 ---
 
@@ -20,5 +21,5 @@
 
 ## 🚀 Demo
 Проект развёрнут на Vercel:  
-👉 https://your-vercel-link.vercel.app/
+👉 [https://your-vercel-link.vercel.app/](https://card-catalogue-landing.vercel.app/)
 
