@@ -112,6 +112,14 @@ body {
   display: none;
 }
 
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 80px 0;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;

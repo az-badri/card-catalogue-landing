@@ -92,6 +92,14 @@ body {
 }
 .meta__count { color:var(--muted); display: none }
 
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 80px 0;
+}
+
 .cards {
   display:flex;
   flex-wrap:wrap;
@@ -99,7 +107,7 @@ body {
   margin-top: 20px;
 }
 
-.card{
+.card {
   flex:1 1 calc(33.33% - var(--gap));
   min-width:240px;
   max-width:360px;
