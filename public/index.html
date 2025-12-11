@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+<div class="page">
+    <header class="header">
+        <div class="header__kicker">ENJOY YOUR STUDYING!</div>
+        <h1 class="header__title">Our online courses</h1>
+    </header>
+
+    <div class="controls">
+        <div id="filters" class="filters"></div>
+
+        <div class="search">
+            <input id="search" class="search__input" placeholder="Search course..." />
+            <div class="search__icon">
+                <img src="assets/icons/SearchIcon.svg" alt="SearchIcon" width="14" height="14">
+            </div>
+        </div>
+    </div>
+
+    <div class="meta">
+        <div id="count" class="meta__count">-</div>
+    </div>
+
+    <section id="cards" class="cards"></section>
+    <div id="loadMore" class="load-more">
+        <img src="assets/icons/ReloadIcon.svg" alt="SearchIcon" width="14" height="14">
+        <span>Load more</span>
+    </div>
+
+</div>
+
+<script src="./scripts.js"></script>
+</body>
+</html>
