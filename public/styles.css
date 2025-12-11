@@ -8,6 +8,8 @@
   --tag-green:#39b385;
   --tag-blue:#5965ff;
   --tag-orange:#f59e0b;
+  --tag-pink:#F52F6E;
+  --tag-violet:#7772F1;
   --gap:28px;
   --container-width:1100px;
 }
@@ -159,6 +161,14 @@ body {
 
 .tag--hr {
   background: var(--tag-orange);
+}
+
+.tag--design {
+  background: var(--tag-pink);
+}
+
+.tag--dev {
+  background: var(--tag-pink);
 }
 
 .card__title {
