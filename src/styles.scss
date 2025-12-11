@@ -2,7 +2,9 @@
   --bg:#efefef;
   --panel:#ffffff;
   --accent:#0a84ff;
+  --accent2: #FF3F3A;
   --muted:#8a8f98;
+  --muted2:#1E212C;
   --tag-green:#39b385;
   --tag-blue:#5965ff;
   --tag-orange:#f59e0b;
@@ -32,8 +34,8 @@ body {
 }
 
 .header { text-align:center; }
-.header__kicker{ font-size:12px; text-transform:uppercase; color:var(--muted); }
-.header__title{ font-size:36px; font-weight:800; }
+.header__kicker { font-size:12px; text-transform:uppercase; color:var(--muted2); }
+.header__title { font-size: 36px; font-weight: 800; margin-top: 10px}
 
 .controls{
   display:flex;
@@ -85,15 +87,15 @@ body {
   justify-content:space-between;
   margin:12px 0 8px;
 }
-.meta__count{ color:var(--muted); }
+.meta__count { color:var(--muted); display: none }
 
-.cards{
+.cards {
   display:flex;
   flex-wrap:wrap;
   gap:var(--gap);
+  margin-top: 20px;
 }
 
-/* каждая карточка — резиновая */
 .card{
   flex:1 1 calc(33.33% - var(--gap));
   min-width:240px;
@@ -104,33 +106,35 @@ body {
   box-shadow:0 10px 30px rgba(10,15,35,.06);
 }
 
-.card__media{
+.card__media {
   height:160px;
   background-size:cover;
   background-position:center;
 }
 
-.card__content{
+.card__content {
   padding:14px 16px 18px;
   display:flex;
   flex-direction:column;
   gap:10px;
 }
 
-.tag{
+.tag {
   padding:6px 8px;
   font-size:12px;
   border-radius:6px;
   color:white;
   font-weight:700;
+  max-width: 120px;
+  min-width: 80px;
 }
 .tag--marketing { background:var(--tag-green); }
 .tag--management { background:var(--tag-blue); }
 .tag--hr { background:var(--tag-orange); }
 
-.card__title{ font-weight:700; font-size:15px; }
-.card__meta{ font-size:13px; color:var(--muted); }
-.price{ color:#ef4444; font-weight:700; margin-right:6px }
+.card__title { font-weight:700; font-size:15px; margin-top: 10px; margin-bottom: 0; }
+.card__meta { font-size:13px; color:var(--muted); margin-bottom: 20px }
+.price { color:#ef4444; font-weight:700; margin-right:6px }
 
 @media(max-width:1100px){
   .card{ flex-basis:calc(50% - var(--gap)); }
