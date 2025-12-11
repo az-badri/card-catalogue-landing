@@ -69,7 +69,7 @@ body {
 
 .filter {
   padding: 8px 12px;
-  border: 1px solid rgba(10, 15, 35, 0.08);
+  border: none;
   border-radius: 8px;
   cursor: pointer;
   background: none;
@@ -79,7 +79,7 @@ body {
 .filter--active {
   background: white;
   color: var(--accent2);
-  border-color: rgba(255, 90, 90, 0.2);
+  border: 1px solid rgba(255, 90, 90, 0.2);
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
 }
 
@@ -205,32 +205,4 @@ body {
   }
 }
 
-.load-more {
-  margin: 40px auto 80px;
-  padding: 12px 20px;
-  width: fit-content;
-  cursor: pointer;
-  font-size: 16px;
-  color: var(--muted-dark);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  opacity: 0.8;
-  transition: 0.2s ease;
-}
-
-.load-more:hover {
-  opacity: 1;
-  transform: translateY(-2px);
-}
-
-.load-more__icon {
-  font-size: 20px;
-  display: inline-block;
-  transform-origin: center;
-}
-
-.load-more--disabled {
-  pointer-events: none;
-  opacity: 0.4;
-}
+/*# sourceMappingURL=styles.css.map */
