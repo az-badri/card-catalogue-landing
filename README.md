@@ -21,5 +21,5 @@ https://www.figma.com/design/iuXLXifXgv4ZCzad0KeYKr/Test-Task?node-id=2249-2298&
 
 ## 🚀 Demo
 Проект развёрнут на Vercel:  
-👉 [https://your-vercel-link.vercel.app/](https://card-catalogue-landing.vercel.app/)
+👉 https://card-catalogue-landing.vercel.app/
 
