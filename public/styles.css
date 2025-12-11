@@ -5,6 +5,7 @@
   --accent2: #FF3F3A;
   --muted:#8a8f98;
   --muted2:#1E212C;
+  --muted-dark:#424551;
   --tag-green:#39b385;
   --tag-blue:#5965ff;
   --tag-orange:#f59e0b;
@@ -204,4 +205,32 @@ body {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+.load-more {
+  margin: 40px auto 80px;
+  padding: 12px 20px;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--muted-dark);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0.8;
+  transition: 0.2s ease;
+}
+
+.load-more:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.load-more__icon {
+  font-size: 20px;
+  display: inline-block;
+  transform-origin: center;
+}
+
+.load-more--disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
